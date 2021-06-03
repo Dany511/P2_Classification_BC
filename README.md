@@ -27,7 +27,7 @@ We have to standardize the data to give same level of priority to all features o
 We have split  80% of the total data into training dataset and 20% of the total data into test dataset.
 
 # Model Training,Model Testing and Model Evaluation: 
-We are going to fit the training data into  SVM classifier to create a model.we test the model on the testing data using predict function. we then check the accuracy of the prediction using metrics library of sklearn package.The accuracy of  svm model is 0.93671.
+We are going to fit the training data into different classifiers using fit() function.we test every model on the testing data using predict function. we then check the accuracy of the prediction using metrics library of sklearn package.The max accuracy is achieved by svm model ie 0.93671.
 
 
-![](https://github.com/Dany511/Dany5_portfolio/blob/main/images/Capture.PNG)
+ ![](https://github.com/Dany511/Dany5_portfolio/blob/main/images/Capture.PNG)
