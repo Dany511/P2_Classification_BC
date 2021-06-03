@@ -29,5 +29,7 @@ We have split  80% of the total data into training dataset and 20% of the total 
 # Model Training,Model Testing and Model Evaluation: 
 We are going to fit the training data into different classifiers using fit() function.we test every model on the testing data using predict function. we then check the accuracy of the prediction using metrics library of sklearn package.The max accuracy is achieved by svm model ie 0.93671.
 
+# Table of metrics for all the algorithms used:
+
 
  ![](https://github.com/Dany511/Dany5_portfolio/blob/main/images/Capture.PNG)
