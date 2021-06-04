@@ -33,3 +33,6 @@ We are going to fit the training data into different classifiers using fit() fun
 
 
  ![](https://github.com/Dany511/Dany5_portfolio/blob/main/images/Capture.PNG)
+ 
+# Discussions and Conclusions:
+For this project, the best Recall score we can get is Recall  = 0.96. Recall also gives a measure of how accurately our model is able to identify the relevant data. We refer to  it as Sensitivity or True Positive Rate. What if a patient has Malignant cancer, but there is no treatment given to him/her because our model predicted so? That is a situation    we would like to avoid!.so the best model we come up with is the Decision Tree Model with high recall value.
