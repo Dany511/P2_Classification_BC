@@ -9,16 +9,21 @@ Usually classifying the cancer into benign or malignant to proceed further diagn
 We need jupyter notebook environment for executing python program.
 
 # Packages and libraries required:
-pandas,
-numpy,
-matplotlib,
-scikit learn,
-seaborn.
+•Pandas
+
+•Numpy
+
+•Matplotlib
+
+•Scikit learn
+
+•Seaborn
 
 # Reading the data:
-we will import the raw data which is in csv format from local database using pandas library.
+I have imported the raw data which is in csv format from local database using read_csv function from pandas library.
 
 # Dataset Description:
+
 1) ID number
  
 2) Diagnosis (M = malignant, B = benign)
@@ -61,10 +66,10 @@ As the data was collected from different sources, there may be some missing data
 To know the data type of columns , we use dtypes function.from that we get the columns with object data type and we convert them into numerical values.
 
 # Standardisation of data: 
-We have to standardize the data to give same level of priority to all features of data. Here we are standardizing the data using sklearn package and StandardScaler library.
+I have standardized the data because there are many independent variables with different ranges of their values. I imported StandardScaler from Sklearn library and used fit_transform() function to standardize the data. 
 
 # Splitting of data:
-We have split  80% of the total data into training dataset and 20% of the total data into test dataset.
+I have split  80% of the total data into training dataset(x_train,x_test) and 20% of the total data into test dataset(y_train,y_test).Using train_test_split() function from sklearn library.
 
 # Model Training,Model Testing and Model Evaluation: 
 We are going to fit the training data into different classifiers using fit() function.we test every model on the testing data using predict function. we then check the accuracy of the prediction using metrics library of sklearn package.The max accuracy is achieved by svm model ie 0.93671.
